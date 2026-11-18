@@ -82,7 +82,7 @@ The API supports *offline* location that allows the application to determine the
 
 ## API reference
 
-Check the [full API reference](https://quic.github.io/tps-location-sdk-native/doxygen/html) for more information on APIs that are exposed by the SDK.
+Check the [full API reference](https://qualcomm.github.io/tps-location-sdk-native/doxygen/html) for more information on APIs that are exposed by the SDK.
 
 ## Reference application
 
@@ -313,7 +313,7 @@ For commmand line apps in macOS Catalina or later extra steps are required to ob
 * If the app is not packaged as a full blown app bundle, an `Info.plist` file must be be placed in the same directory where the executable is located, with the `CFBundleIdentifier` and `CFBundleExecutable` fields populated
 * Starting with macOS Big Sur 11.4, the executable must be located inside an app bundle or in a directory with name ending with `.app`, e.g. `YourAppName.app`
 
-Please see the [quick start project](https://github.com/quic/tps-location-quick-start-native) as an example of a command line application utilizing the SDK to determine Wi-Fi based location on macOS 10.15+.
+Please see the [quick start project](https://github.com/qualcomm/tps-location-quick-start-native) as an example of a command line application utilizing the SDK to determine Wi-Fi based location on macOS 10.15+.
 
 #### Hardened Runtime
 
